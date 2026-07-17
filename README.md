@@ -35,6 +35,15 @@ Prompt → JSON layout → rendered by teammate's Godot front-end (not included 
 
 ![Waterfront demo](demo/demo2.gif)
 
+**More generated scenes:**
+
+| Prompt | Output |
+|---|---|
+| *"Harbour district with river and bridge"* | ![Harbour](demo/scene1_harbour.jpeg) |
+| *"A road going from left to right with 3 buildings sitting next to each other on the northern bank of the road and a river to the south"* | ![Road with river](demo/scene2_road_river.png) |
+| *"4 buildings in a square formation with a park in between them"* | ![Square with park](demo/scene3_square_park.png) |
+| *"Building surrounded by water around it"* | ![Surrounded by water](demo/scene4_water_surround.png) |
+
 ## Setup
 
 ```bash
