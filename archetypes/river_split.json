@@ -1,0 +1,144 @@
+{
+  "_meta": {
+	"name": "river_split",
+	"description": "Two rows of buildings separated by a river running north-south between them.",
+	"triggers": [
+	  "split",
+	  "divided",
+	  "separated by",
+	  "river between",
+	  "river split",
+	  "divided by river",
+      "buildings separated by river"
+	]
+  },
+  "city_name": "River Split",
+  "entities": [
+	{
+	  "id": "w1",
+	  "type": "buildings",
+	  "position": [
+		0.0,
+		0.0,
+		-10.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "w2",
+	  "type": "buildings",
+	  "position": [
+		0.0,
+		0.0,
+		0.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "w3",
+	  "type": "buildings",
+	  "position": [
+		0.0,
+		0.0,
+		10.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "r1",
+	  "type": "water",
+	  "position": [
+		10.0,
+		0.0,
+		-10.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "r2",
+	  "type": "water",
+	  "position": [
+		10.0,
+		0.0,
+		0.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "r3",
+	  "type": "water",
+	  "position": [
+		10.0,
+		0.0,
+		10.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "e1",
+	  "type": "buildings",
+	  "position": [
+		20.0,
+		0.0,
+		-10.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "e2",
+	  "type": "buildings",
+	  "position": [
+		20.0,
+		0.0,
+		0.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "id": "e3",
+	  "type": "buildings",
+	  "position": [
+		20.0,
+		0.0,
+		10.0
+	  ],
+	  "rotation": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	}
+  ]
+}

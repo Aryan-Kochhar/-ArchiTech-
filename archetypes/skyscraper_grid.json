@@ -1,0 +1,145 @@
+{
+  "_meta": {
+    "name": "skyscraper_grid",
+    "description": "A skyscraper district with tall towers on a road grid, roads running between each tower.",
+    "triggers": [
+      "skyscrapers",
+      "tall buildings",
+      "high rise",
+      "towers",
+      "financial district",
+      "skyline",
+      "CBD",
+      "skyscraper"
+    ]
+  },
+  "city_name": "Skyscraper Grid",
+  "entities": [
+    {
+      "id": "sk1",
+      "type": "skyscrapers",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd1",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sk2",
+      "type": "skyscrapers",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd2",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd3",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd4",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sk3",
+      "type": "skyscrapers",
+      "position": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd5",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sk4",
+      "type": "skyscrapers",
+      "position": [
+        20.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

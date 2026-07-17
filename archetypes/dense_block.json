@@ -1,0 +1,315 @@
+{
+  "_meta": {
+    "name": "dense_block",
+    "description": "A dense city block with buildings packed on a 3x3 grid, roads forming a complete perimeter around the outside.",
+    "triggers": [
+      "downtown",
+      "dense",
+      "city center",
+      "city block",
+      "urban",
+      "district",
+      "grid",
+      "packed",
+      "dense buildings",
+      "block"
+    ]
+  },
+  "city_name": "Dense Block",
+  "entities": [
+    {
+      "id": "t1",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "t2",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "t3",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b1",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "l1",
+      "type": "roads",
+      "position": [
+        -10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "l2",
+      "type": "roads",
+      "position": [
+        -10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "l3",
+      "type": "roads",
+      "position": [
+        -10.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "r1",
+      "type": "roads",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "r2",
+      "type": "roads",
+      "position": [
+        30.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "r3",
+      "type": "roads",
+      "position": [
+        30.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b00",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b10",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b20",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b01",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b11",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b21",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b02",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b12",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b22",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

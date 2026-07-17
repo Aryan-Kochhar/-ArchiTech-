@@ -1,0 +1,187 @@
+{
+  "_meta": {
+    "name": "shopping_strip",
+    "description": "A commercial strip with shops lining both sides of a road.",
+    "triggers": [
+      "shopping",
+      "shops",
+      "commercial",
+      "retail",
+      "strip",
+      "market",
+      "store",
+      "shopping street"
+    ]
+  },
+  "city_name": "Shopping Strip",
+  "entities": [
+    {
+      "id": "rd1",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd2",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd3",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd4",
+      "type": "roads",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "shops",
+      "position": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "shops",
+      "position": [
+        10.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "shops",
+      "position": [
+        20.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s4",
+      "type": "shops",
+      "position": [
+        30.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s5",
+      "type": "shops",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s6",
+      "type": "shops",
+      "position": [
+        10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s7",
+      "type": "shops",
+      "position": [
+        20.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s8",
+      "type": "shops",
+      "position": [
+        30.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "_meta": {
+    "name": "parallel_roads",
+    "description": "Two parallel roads running east-west with buildings on the outer north and south sides.",
+    "triggers": [
+      "parallel",
+      "two roads",
+      "dual road",
+      "two streets",
+      "parallel roads",
+      "two parallel"
+    ]
+  },
+  "city_name": "Parallel Roads",
+  "entities": [
+    {
+      "id": "rn1",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rn2",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rn3",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rs1",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rs2",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rs3",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "n1",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "n2",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "n3",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

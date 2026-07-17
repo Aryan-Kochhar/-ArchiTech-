@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "name": "square_formation",
+    "description": "Four buildings arranged at the corners of a square, with an empty center tile.",
+    "triggers": [
+      "square",
+      "formation",
+      "four corners",
+      "in the middle",
+      "square formation",
+      "arranged in a square",
+      "4 buildings square",
+      "buildings in a square"
+    ]
+  },
+  "city_name": "Square Formation",
+  "entities": [
+    {
+      "id": "nw",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ne",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sw",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "se",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

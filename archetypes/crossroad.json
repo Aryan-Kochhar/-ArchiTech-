@@ -1,0 +1,145 @@
+{
+  "_meta": {
+    "name": "crossroad",
+    "description": "A plus-shaped crossroads intersection where an east-west road crosses a north-south road, buildings at each of the four corners.",
+    "triggers": [
+      "crossroad",
+      "intersection",
+      "crossing",
+      "junction",
+      "cross street",
+      "four corners",
+      "plus shape",
+      "T junction"
+    ]
+  },
+  "city_name": "Crossroad",
+  "entities": [
+    {
+      "id": "ew_w",
+      "type": "roads",
+      "position": [
+        -10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ew_c",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ew_e",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ns_n",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ns_s",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "nw",
+      "type": "buildings",
+      "position": [
+        -10.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ne",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sw",
+      "type": "buildings",
+      "position": [
+        -10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "se",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

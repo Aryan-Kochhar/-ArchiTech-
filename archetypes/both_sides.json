@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "name": "both_sides",
+    "description": "A road running east-west with buildings on both the north side and the south side.",
+    "triggers": [
+      "both sides",
+      "either side",
+      "each side",
+      "opposite sides",
+      "facing each other",
+      "buildings on both sides",
+      "divided by road"
+    ]
+  },
+  "city_name": "Both Sides",
+  "entities": [
+    {
+      "id": "rd_1",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd_2",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd_3",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "n1",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "n2",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "n3",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

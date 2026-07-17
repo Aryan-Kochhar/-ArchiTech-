@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "name": "row",
+    "description": "A straight road running east-west with a row of buildings along the north side.",
+    "triggers": [
+      "row",
+      "along",
+      "street",
+      "beside",
+      "line of buildings",
+      "next to each other",
+      "in a line",
+      "along the road"
+    ]
+  },
+  "city_name": "Row Street",
+  "entities": [
+    {
+      "id": "rd_1",
+      "type": "roads",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd_2",
+      "type": "roads",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd_3",
+      "type": "roads",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rd_4",
+      "type": "roads",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b1",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "buildings",
+      "position": [
+        30.0,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

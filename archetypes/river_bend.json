@@ -1,0 +1,213 @@
+{
+  "_meta": {
+    "name": "river_bend",
+    "description": "A river that flows east-west then bends south, forming an L-shape. Buildings are on the outer side of the bend.",
+    "triggers": [
+      "river bend",
+      "river turn",
+      "river corner",
+      "winding river",
+      "L shaped river",
+      "river curve"
+    ]
+  },
+  "city_name": "River Bend",
+  "entities": [
+    {
+      "id": "rh1",
+      "type": "water",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rh2",
+      "type": "water",
+      "position": [
+        10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rh3",
+      "type": "water",
+      "position": [
+        20.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rh4",
+      "type": "water",
+      "position": [
+        30.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "corner",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rv1",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rv2",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rv3",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        40.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bn1",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bn2",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bn3",
+      "type": "buildings",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bn4",
+      "type": "buildings",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bw1",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bw2",
+      "type": "buildings",
+      "position": [
+        0.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

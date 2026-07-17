@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "name": "square formation buildings with river surrounding the buildings",
+    "description": "A complete closed ring of water surrounding a central block of buildings. All 4 sides AND all 4 corner tiles are water, forming an unbroken moat. Buildings are inside the ring.",
+    "triggers": [
+      "surrounding",
+      "surrounded by",
+      "moat",
+      "island",
+      "encircled",
+      "ring of water",
+      "river surrounding",
+      "water around",
+      "water surrounding",
+      "enclosing",
+      "enclosed by water"
+    ]
+  },
+  "city_name": "Island",
+  "entities": [
+    {
+      "id": "bldg_nw",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bldg_ne",
+      "type": "buildings",
+      "position": [
+        30.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bldg_sw",
+      "type": "buildings",
+      "position": [
+        10.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bldg_se",
+      "type": "buildings",
+      "position": [
+        30.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wn1",
+      "type": "water",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wn2",
+      "type": "water",
+      "position": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wn3",
+      "type": "water",
+      "position": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wn4",
+      "type": "water",
+      "position": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wn5",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ws1",
+      "type": "water",
+      "position": [
+        0.0,
+        0.0,
+        40.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ws2",
+      "type": "water",
+      "position": [
+        10.0,
+        0.0,
+        40.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ws3",
+      "type": "water",
+      "position": [
+        20.0,
+        0.0,
+        40.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ws4",
+      "type": "water",
+      "position": [
+        30.0,
+        0.0,
+        40.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ws5",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        40.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ww1",
+      "type": "water",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ww2",
+      "type": "water",
+      "position": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ww3",
+      "type": "water",
+      "position": [
+        0.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "we1",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "we2",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "we3",
+      "type": "water",
+      "position": [
+        40.0,
+        0.0,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wcenter",
+      "type": "water",
+      "position": [
+        20.0,
+        0.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+venv/
+arch/
+
+__pycache__/
+.pytest_cache/
+.env
+
+# Generated Files
+*.png
+demo_results.json
+
+.DS_Store
+
+# Godot front-end — not part of this repo (not my work)
+godot/
+*.import
