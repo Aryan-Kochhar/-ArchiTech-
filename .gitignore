@@ -6,7 +6,6 @@ __pycache__/
 .env
 
 # Generated Files
-*.png
 demo_results.json
 
 .DS_Store
